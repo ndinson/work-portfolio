@@ -4,7 +4,7 @@
 <head>
 
     <meta charset= "UTF-8" />
-    <link rel="stylesheet" ref=".assets/css/stle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Nainoa Dinson - Work Portfolio</title>
 
 </head>
@@ -14,18 +14,19 @@
     <header>
         
         <h1>Nainoa Dinson</h1>
+        <h2>Work Portfolio</h2>
             <nav>
                 <ul>
                     <li>
-                        About Me
+                       <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        Work
+                        <a href="#work">Work</a>
                     </li>
                     <li>
-                        Contact Me
+                        <a href="#contact-me">Contact Me</a>
                     </li>
-    <!--Link resume to placeholder document-->
+<!--Link resume to placeholder document-->
                     <li>
                         Resume
                     </li>
@@ -34,48 +35,54 @@
 
     </header>
 
-    <!--Hero Banner-->
-    <section>
-        <h2>Aloha! My name is Nainoa.</h2>
-    </section>
+<!--Hero Banner-->
+        <section class= "hero">
+            <background img src = "assets/images/hero-banner.jpg" alt = "Ko'olau Mountain Range Background"/>
+            <img src= "assets/images/profile-picture.png" alt= "Nainoa's Profile Picture"/>
+         <h2>Aloha! My name is Nainoa.</h2>
+        </section>
 
-    <section>
+    <article>
 
-        <h3>About Me</h3>
-            <p>
-                I was born and raised on the Big Island of Hawai`i but live on the windward side of O`ahu in Kāne`ohe. 
-            </p>
+        <section id= "about-me" class= "article">
+            <h3 class= "article-header">About Me</h3>
+                <p>
+                    I was born and raised on the Big Island of Hawai`i but I currently live on the windward side of O`ahu in Kāne`ohe. 
+                    At this moment, I am a part-time student attending an online coding bootcamp at the University of Minnesota and I work in presentation/ merchandising at a large retail company.
+                    Prior to this, I took health/ science courses at my local community college also had experience working in food service, produce, healthcare, and management.
+                    With these versatile skills/ knowledge I have gained and after graduating from bootcamp, I hope to transition smoothly into a new career in web development.
+                </p>
+        </section>
 
-    </section>
+        <section id= "work" class= "article">
+            <h3 class= "article-header">Work</h3>
+                    
+                <div>Prework Study Guide</div>
 
-    <section>
-        <h3>Work</h3>
-            <div>Prework Study Guide</div>
+                <div>Placeholder Project 1</div>
 
-            <div>Placeholder Project 1</div>
+                <div>Placeholder Project 2</div>
 
-            <div>Placeholder Project 2</div>
-
-            <div>Placeholder Project 3</div>
-    </section>
+                <div>Placeholder Project 3</div>
+        </section>
        
-    <section>
-        <h3>Contact Me</h3>
-            <ul>
-                <li>
-                    <a href = "tel: 555-555-5555">555-555-5555</a>
-                </li>
-                <li>
-                    <a href = "mailto: nd808@msn.com">nd808@msn.com</a>
-                </li>
-                <li>
-                    <a href="https://github.com/ndinson">Github</a>
-                </li>
-            </ul>
+        <section id= "contact-me" class= "article">
+            <h3 class= "article-header" >Contact Me</h3>
+                <ul>
+                    <li>
+                        <a href = "tel: 555-555-5555">555-555-5555</a>
+                    </li>
+                    <li>
+                        <a href = "mailto: nd808@msn.com">nd808@msn.com</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ndinson">Github</a>
+                    </li>
+                </ul>
             
-    </section>
+        </section>
     
-
+    </article>
 
     <footer>
 

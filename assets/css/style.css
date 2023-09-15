@@ -1,0 +1,92 @@
+/*Global
+--------------------*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white
+}
+
+p {
+    font-size: 20px;
+}
+/*Header
+--------------------*/
+
+header {
+    display: inline-block;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: black;
+    background-color: gray;
+}
+
+header h1 {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+header h2 {
+    width: 40%;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+nav {
+    display: inline;
+    width: 60%;
+    margin-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+/*Hero
+--------------------*/
+
+.hero {
+    display: inline-block;
+    width: 100%;
+    background-image: url("../images/hero-banner.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero img {
+    height: 500px;
+    width: 350px;
+}
+
+.hero h2 {
+    font-size: 25px;
+}
+
+/*Article
+--------------------*/
+
+.article {
+    font-size: 15px;
+}
+
+.article-header {
+    color: black;
+    font-size: 40px;
+}
+
+/*Footer
+--------------------*/
