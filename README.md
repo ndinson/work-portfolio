@@ -12,12 +12,13 @@ In addition, I will be able to switch out placeholder items for future projects/
 - Created links corresponding to the different titled sections in my portfolio ("About Me", "Work", "Contact Me")
 - Created a link which opens a placeholder "resume" document
 - Created images corresponding to each work project and made the first application the largest
+- Created links to contact information
 - Linked each project to their deployed websites, with the exception of placeholder items for future projects
 - Created a responsive layout that adapts to different vieports
 
 ## Links
 
-Deployed Website:
+Deployed Website: https://ndinson.github.io/work-portfolio/
 
 GitHub Code Repository: https://github.com/ndinson/work-portfolio
 
