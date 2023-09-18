@@ -14,7 +14,7 @@ In addition, I will be able to switch out placeholder items for future projects/
 - Created images corresponding to each work project and made the first application the largest
 - Created links to contact information
 - Linked each project to their deployed websites, with the exception of placeholder items for future projects
-- Created a responsive layout that adapts to different vieports
+- Created a responsive layout that adapts to different viewports
 
 ## Links
 
