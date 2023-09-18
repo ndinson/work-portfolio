@@ -178,6 +178,14 @@ a:visited {
     color: black;
 }
 
+/*Footer
+--------------------*/
+
+footer h5 {
+    text-align: center;
+    font-size: 30px;
+}
+
 @media screen and (max-width: 768px) {
 
     body {
@@ -233,12 +241,4 @@ a:visited {
         text-align: center;
     }
 
-}
-
-/*Footer
---------------------*/
-
-footer h5 {
-    text-align: center;
-    font-size: 30px;
 }
